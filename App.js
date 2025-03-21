@@ -1,8 +1,9 @@
-import { View, Text } from 'react-native';
+/* eslint-disable react-native/no-inline-styles */
+
 import React from 'react';
-import Navigation from './src/MainNavigation/Navigation';
-import Toast from 'react-native-toast-message';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import Toast from 'react-native-toast-message';
+import Navigation from './src/MainNavigation/Navigation';
 
 const App = () => {
   return (
